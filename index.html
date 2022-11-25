@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student++</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+      <div class="nav" id="myNav">
+        <ul>
+        <div class="leftHead">
+            <ul>
+            <li style="float: left;"><a class="active" href="#default">Student++</a></li>
+            </ul>
+        </div>
+        <div class="centreForm">
+          <ul>
+          <li><a href="#main-form">{ form }</a></li>
+          </ul>
+        </div>
+        <div class="rightElements">
+          <ul>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#home">Home</a></li>
+          </ul>
+        </div>
+        </ul>
+      </div>
+<hr style="color: azure;">
+      <div class="greeting">
+        <h1>Welcome!</h1>
+      </div>
+      <div class="greet-para">
+        <h4>Click on <a href="#main-form" class="greet-f" style="color: beige;">{form}</a> to get started</h4>
+      </div>
+      <div class="greet-pika board">
+        <img src="pikachu.gif" alt="pikachu welcoming you" id="pikaimageid" onclick="character();">
+      </div>
+      <div class="main-form" id="main-form">
+        <form action="#" name="mainForm">
+        First Name:
+        <input type="text" name="fname" minlength="3"><br><br><br><br>
+        Last Name:
+        <input type="text" name="lname" minlength="3"><br><br><br><br>
+        NITK E-mail Address:
+        <input type="email" name="email"><br><br><br><br>
+        Date Of Birth:
+        <input type="date" name="dob"><br><br><br><br>
+
+        Branch:
+        <select name="branch" id="b">
+          <option value="cse">CSE</option>
+          <option value="it">IT</option>
+          <option value="ai">AI</option>
+          <option value="eee">EEE</option>
+          <option value="ece">ECE</option>
+          <option value="civil">Civil</option>
+          <option value="chem">Chemical</option>
+          <option value="mech">Mechanical</option>
+          <option value="met">Metallurgy</option>
+          <option value="min">Mining</option>
+        </select><br><br><br><br>
+
+        Hostel:<br><br><br><br>
+        <input type="radio" id="bh1" name="Hostel" value="BH1">
+        <label for="bh1">Boys Hostel 1</label><br><br><br><br>
+        <input type="radio" id="bh2" name="Hostel" value="BH2">
+        <label for="bh2">Boys Hostel 2</label><br><br><br><br>
+        <input type="radio" id="bh7" name="Hostel" value="BH7">
+        <label for="gh1">Boys Hostel 7</label><br><br><br><br>
+        <input type="radio" id="gh1" name="Hostel" value="GH2">
+        <label for="gh1">Girls Hostel 1</label><br><br><br><br>
+        <input type="radio" id="gh2" name="Hostel" value="GH2">
+        <label for="gh2">Girls Hostel 2</label><br><br><br><br>
+        <input type="radio" id="gh3" name="Hostel" value="GH3">
+        <label for="gh3">Girls Hostel 3</label><br><br><br><br>
+        Programming Languages:<br><br><br><br>
+        <input type="checkbox" id="l1" name="js">
+        <label for="l1">Javascript</label><span class="vertical-line"></span>
+        <input type="checkbox" id="l2" name="J">
+        <label for="l2">Java</label><span class="vertical-line"></span>
+        <input type="checkbox" id="l3" name="C">
+        <label for="l3">C</label><span class="vertical-line"></span>
+        <input type="checkbox" id="l4" name="C++">
+        <label for="l4">C++</label><br><br><br><br>
+        Why do you want to join NITK:<br><br><br><br>
+        <textarea id="ynitk" name="ynitk" rows="10" cols="100">
+        </textarea>
+        <button class="btn"><input type="submit" name="submit" value="SUBMIT"></button>
+        </form>
+      </div>
+</body>
+</html>
